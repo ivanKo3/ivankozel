@@ -1,0 +1,104 @@
+body{
+    background-color: #ebebeb;
+    font-family: 'Koulen', cursive;
+    margin: 0px;
+    max-width: 100%;
+} 
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(77, 80, 102, 0.8);
+    cursor: pointer;
+}
+a:hover{
+    color: #4d5066;
+    opacity: .9;
+}
+h1{
+    color: #4d5066;
+    font-size: 72px;
+    margin: 0px;
+    
+}
+h4{
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+img{
+    height : 20px ;
+    width : 20px;
+    padding-right: 5px;
+    
+}
+.link{
+    height: 45px;
+    width: 150px;
+    margin-left: 70%;
+    margin-top: 10px; 
+    opacity: .8; 
+   
+}
+.name{
+    height: 200px;
+    width: 300px;
+    margin-left: 30%;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+.button{
+    width: 100px;
+    height: 45px;
+    color: white;
+    background-color: rgb(240, 95, 71, 0.8);
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+.button :hover{
+    background-color: rgb(240, 95, 71);
+}
+.contact{
+    height: 45px;
+    width: 150px;
+    margin-left: 70%;
+    margin-top: 10px;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    display: none;
+    
+}
+.contactShow{
+    height: 45px;
+    width: 150px;
+    margin-left: 70%;
+    margin-top: 10px;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+.about{
+    width: 40%;
+    margin-top: 250px;
+    margin-bottom: 300px;
+    margin-left: 30%;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    display: none;
+}
+.aboutMe{
+    width: 40%;
+    margin-top: 250px;
+    margin-bottom: 300px;
+    margin-left: 30%;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
