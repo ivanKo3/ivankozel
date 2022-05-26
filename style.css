@@ -1,0 +1,131 @@
+body{
+    background-color: #ebebeb;
+    font-family: 'Koulen', cursive;
+    margin: 0px;
+
+}
+.main{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.header{
+    background-color: #e0e0e0;
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header__img{
+    height: 50px;
+    width: 50px;
+}
+
+.nav{
+    font-size: 25px;
+    font-family: 'Koulen', cursive;
+}
+.nav__link a{
+    color: #4d5066;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav__link:hover{
+    text-decoration: underline;
+}
+.container__main{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-top: 15%;
+    padding-bottom: 25%;
+} 
+.myName{
+    color: #4d5066;
+    font-size: 72px;
+    font-family: 'Koulen', cursive;
+    margin: 0px;
+    height: 100px;
+}
+.under__myName{
+    color: #5a5d77;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px;
+}
+.social__link{
+    padding-right: 15px;
+}
+.img__link{
+    height: 40px;
+    width: 40px;
+    opacity: 0.8;
+}
+.img__link:hover{
+    opacity: 1;
+}
+.btn{
+    background-color: rgba(240, 95, 71, 0.8);
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    margin-left: 15%;
+}
+.btn:hover{
+    background-color: rgba(240, 95, 71, 1); 
+}
+.btn__text{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Koulen', cursive;
+    cursor: pointer;
+}
+.email p{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+    display: none;
+}
+.emailShow p{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: underline;
+}
+.about{
+    margin-top: 250px;
+    margin-bottom: 300px;
+    margin-left: 10%;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    display: none;
+}
+.aboutShow{
+    margin-top: 250px;
+    margin-bottom: 300px;
+    margin-left: 10%;
+    color: #4d5066;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
