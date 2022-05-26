@@ -7,12 +7,6 @@ function down() {
     aboutMe.classList.remove('about');
     aboutMe.classList.add('aboutShow');
 
-    window.scroll({
-        left: 0,
-        top: 458, 
-        behavior: 'smooth'
-    })
-
     button.addEventListener('click', up);
 }
 
