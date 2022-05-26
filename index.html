@@ -7,37 +7,63 @@
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="link">
-        <a href="https://www.instagram.com/1vank0_/" target="_blank">
-            <img src="img/instagram.png">
-        </a>
-        <a href="https://www.facebook.com/ivan.kozel.524" target="_blank">
-            <img src="img/facebook.png">
-        </a>
-        <a onclick="contact()"> Contact </a>
+    <div class="main">
+        <div class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <a href="/">
+                        <img class="header__img" src="img/logo.png" href="/">
+                    </a>    
+                    </div>
+                <div class="nav">
+                    <div class="nav__link">
+                        <a class="contact" onclick="showEmail()"> Contact </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="email">
+            <p>
+                <b>My email:</b>  ivankozel03@gmail.com
+            </p>
+        </div>
+        <div class="container__main">
+            <div class="name">
+                <p class="myName">
+                    <b>Ivan Kozel</b>
+                </p>
+                <p class="under__myName">
+                    Beginner frontend developer
+                </p>
+            </div>
+            <div class="social__link">
+                <a href="https://www.instagram.com/1vank0_/" target="_blank">
+                    <img class="img__link" src="img/instagram.png">
+                </a><br>
+                <a href="https://www.facebook.com/ivan.kozel.524" target="_blank">
+                    <img class="img__link" src="img/facebook.png">
+                </a>
+            </div>
+        </div>
+        <div class="btn" onclick="down()">
+            <p class="btn__text">
+                About me
+            </p>
+        </div>
+        <div class="about">
+            <p>
+                Hello! <br>
+                I'm Ivan Kozel, a 19-year-old Ukrainian beginner Front-end developer. 
+                I'm young guy who likes making and discovering a new things.
+                I'm just starting my way and I hope my work will bring people only positive emotions.
+            </p>
+        </div>
     </div>
-    <div class="contact">
-        <p> My email : ivankozel03@gmail.com </p>
-    </div>
-    <div class="name">
-        <h1> Ivan Kozel </h1>
-        <h4> Beginner frontend developer </h4>
-    </div>
-    <div class="button" onclick="down()">
-        <p> About me </p>
-    </div>
-    <div class="about">
-        <p>
-            Hello! <br>
-            I'm Ivan Kozel, a 19-year-old Ukrainian beginner Front-end developer. 
-            I'm young guy who likes making and discovering a new things.
-            I'm just starting my way and I hope my work will bring people only positive emotions.
-        </p>
-    </div>
+
     <script src="script.js"> </script>
 </body>
 </html>
